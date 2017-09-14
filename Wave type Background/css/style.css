@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*    background-image: url(../images/pattern11.jpg);*/
+    background-attachment: fixed;
+}
+
+.layout {
+    width: 100vw;
+    height: 100vh;
+}
+
+scetion {
+    width: 100%;
+    height: 50%;
+}
+
+.wave {
+    width: 100%;
+    height: 50%;
+    /*    background-color: aqua;*/
+    position: relative;
+    background-image: url(../images/pattern11.jpg);
+    /*    background:linear-gradient(90deg, #f0027f, #75489f);*/
+}
+
+.wave::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 257px;
+    ;
+    /*    background-color: black;*/
+    background-image: url(../images/wave.png);
+    background-repeat: no-repeat;
+}
