@@ -1,0 +1,86 @@
+*{  margin: 0;
+    padding : 0;
+}
+body {
+/*    background-image: url(../images/Pattern.jpg);*/
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-color: #272627;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500 ;
+    font-size : 16 px;
+    line-height : 20px;
+}
+.layout {
+   width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    min-height: 350px;
+    padding: 20px;
+    background-color: #333;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 5px 5px 50px rgba(0,0,0,.8);
+    box-shadow: 5px 5px 50px rgba(0,0,0,.8);
+}
+
+
+h1{
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.skill-list {
+	width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin:15px 0;
+}
+
+.skill-list p{
+	color: beige;
+    font-size: 17px;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0 0 10px; 
+    letter-spacing: 1px;
+}
+
+.skill-list p:nth-child(2){
+
+    position: relative;
+    float: right;
+    top: -31px;
+}
+.skill-bar {
+	background-color: #333333;
+    padding: 4px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #0fffb7;
+    border-radius: 2px;
+    margin: 11px 0;
+}
+
+.skill-bar-progress {
+	width: 100%;
+    height: 20px;
+    background-color: #0fffb7;
+}
+
+
+
+
+
+
+
+
+
+
